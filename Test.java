@@ -10,13 +10,7 @@ public class Test {
                     count++;
                 }
             }
-        for(int i = 0;i<arr.length;i++){
-            for(int j =0;j<arr[0].length;j++){
-                System.out.print(arr[i][j] + " ");
-            }
-            System.out.println();
-        }
-        int l = arr.length;
+        int l = arr.length*arr[0].length;
         int[] b = new int[l];
         int c = 0;
         for(int i = 0;i<arr.length;i++){
